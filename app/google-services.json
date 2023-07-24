@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "917312462190",
+    "project_id": "carddoomprogect",
+    "storage_bucket": "carddoomprogect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917312462190:android:4115054d4ce69a7f5ef57f",
+        "android_client_info": {
+          "package_name": "com.carddoom.carddoomproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917312462190-2h8j6n84e1hvmkupm1bcha99n8f56cad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD00-OlQPzc6xQB5zKSe4ikW5iODRa56ss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917312462190-2h8j6n84e1hvmkupm1bcha99n8f56cad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

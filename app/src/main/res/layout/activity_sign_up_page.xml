@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pages.SignUp_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+
+            android:src="@drawable/carddoom_logo"/>
+
+
+
+        <TextView
+            android:id="@+id/textSpacerNoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="انشاء حساب جديد"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:fontFamily="@font/monadi"
+            android:layout_marginBottom="60dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etxt_phone"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="رقم الهاتف"
+            app:suffixText="+967 ">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:digits="0123456789"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etxt_code"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white_220"
+            android:hint="كود التحقق">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:digits="0123456789"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSignUp"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:text="تسجيل"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

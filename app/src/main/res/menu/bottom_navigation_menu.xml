@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/account"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_account_box_24"
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/wallet"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+        android:title=""
+      />
+
+    <item
+        android:id="@+id/home_menu"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title=""
+        />
+    <item
+        android:id="@+id/transaction"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_assessment_24"
+        android:title=""
+        />
+    <item
+        android:id="@+id/whatsapp"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_whatshot_24"
+        android:title=""
+        />
+</menu>
